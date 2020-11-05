@@ -1,0 +1,22 @@
+.title {
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 仿宋;
+}
+
+.content {
+	font-family: 仿宋;
+	line-height: 200%;
+	font-size: 24px;
+}
+
+.height_red {
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+}
+
+.height_underline {
+	text-underline-position: under;
+	text-decoration:underline
+}

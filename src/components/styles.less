@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+::-webkit-scrollbar:horizontal {
+  height: 0;
+}
+.container {
+  height: 100%;
+}
+.loading {
+  width: 100%;
+  margin: 300px auto auto;
+  text-align: center;
+  background: #f8f8fb;
+}
+.loadingPannel {
+  border-radius: 10px;
+  height: 400px;
+  background: #f8f8fb;
+}
+.circle_loading_wrap {
+  margin: auto;
+  z-index: 1000;
+  display: inline-block;
+  width: 187px;
+  height: 208px;
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
+}
+.bus {
+  width: 270;
+  height: 106px;
+  z-index: 900;
+  position: absolute;
+  bottom: 50px;
+  left: 200px;
+  animation-name: bus-moving;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  -webkit-animation-name: bus-moving;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: linear;
+}
+@keyframes bus-moving {
+  0% {
+    transform: rotate(0deg) translate3d(0px, 0px, 0px);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(-500px, 0px, 0px);
+  }
+}
